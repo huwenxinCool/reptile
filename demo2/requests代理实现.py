@@ -5,7 +5,7 @@
 
 import requests
 
-proxy = {"http" : "http://maozhaojun:ntkn0npx@115.28.141.184:16816"}
+proxy = {"http" : "http://username:password@ip:port"}
 
 html = requests.get('http://httpbin.org/ip', proxies=proxy)
 # proxies 接收一个字典来实现代理
